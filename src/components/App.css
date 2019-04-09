@@ -1,0 +1,134 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container-fluid{
+  padding: 0 !important;
+}
+body{
+  padding-left: 250px;
+  font-family: 'Roboto' !important;
+  text-transform: uppercase;
+}
+.sidebar{
+ text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    background:#282c34 !important;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 250px;
+    height: 100vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-item{
+  color:#eee;
+  padding: 20px 0;
+}
+i{
+  padding:0 5px;
+}
+td {
+vertical-align: center !important;
+}
+.rot{
+  transform: rotate(180deg) !important
+}
+.timer{
+  font-size: 30px;
+  width: 100%;
+  background: #eee;
+  height: 60px;
+  line-height: 60px;
+}
+
+/* CUSTOM STYLE TABLE */
+.ReactTable .rt-thead.-header{
+  background: #282c34;
+  color:#eee;
+  height: 50px;
+  line-height: 50px;
+}
+.rt-thead -filters{
+  border-radius: 25px;
+  background: #fff;
+}
+.-striped{
+  /* background:#fffaf3 !important */
+}
+.circleAdd{
+
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  
+  cursor: pointer;
+  background: #f19f22;
+  /* border-radius: 50%; */
+
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.rt-resizable-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rt-th
+{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-primary{
+  background: #f19f22 !important;
+}
+.btn-primary{
+  background: #f19f22 !important;
+  border:#f19f22 !important;
+}
+
+.form{
+padding: 30px;
+text-align: justify
+}
